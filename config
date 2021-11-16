@@ -1,0 +1,11 @@
+lb config noauto \
+        --architecture amd64 \
+	--binary-images iso-hybrid \
+	--debian-installer live \
+	--debian-installer-distribution buster \
+	--debian-installer-gui true \
+	--distribution buster \
+	--interactive shell \
+	--memtest memtest86+ \
+	"${@}"
+

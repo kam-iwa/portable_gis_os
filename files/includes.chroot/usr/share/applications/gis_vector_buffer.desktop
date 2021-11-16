@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Buffer
+Exec=python3 /bin/gis/vector/buffer/gui.py
+Terminal=false
+Categories=GIS - Vector;

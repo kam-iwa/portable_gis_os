@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Centroid
+Exec=python3 /bin/gis/vector/clip/gui.py
+Terminal=false
+Categories=GIS - Vector;
