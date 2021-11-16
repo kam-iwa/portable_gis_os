@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Name=Centroid
+Name=Save layer image
 Exec=python3 /bin/gis/vector/save_layer_image/gui.py
 Terminal=false
 Categories=GIS - Vector;

@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Name=Centroid
+Name=Dissolve
 Exec=python3 /bin/gis/vector/dissolve/gui.py
 Terminal=false
 Categories=GIS - Vector;

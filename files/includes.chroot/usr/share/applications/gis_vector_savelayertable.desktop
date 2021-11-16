@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Name=Centroid
+Name=Save layer table
 Exec=python3 /bin/gis/vector/save_layer_table/gui.py
 Terminal=false
 Categories=GIS - Vector;

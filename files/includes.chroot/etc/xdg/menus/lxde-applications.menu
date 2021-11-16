@@ -178,7 +178,9 @@
 		<Directory>xfce-gis-vector.directory</Directory>
 		<OnlyUnallocated/>
 		<Include>
-		    <All/>
+			<And>
+				<Category>GIS - Vector</Category>
+			</And>
 		</Include>
 	</Menu>
     
@@ -187,7 +189,9 @@
         <Directory>xfce-gis-raster.directory</Directory>
         <OnlyUnallocated/>
         <Include>
-            <All/>
+			<And>
+				<Category>GIS - Raster</Category>
+			</And>
         </Include>
     </Menu>
 
