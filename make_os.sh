@@ -12,7 +12,7 @@ chmod 700 ./auto/config
 # ZMIANY W MOTYWIE GRAFICZNYM SYSTEMU
 cp -ar ../files/includes.chroot/ config/
 cp -ar ../files/includes.binary/ config/
-cp -ar ../files/hooks/ config/
+#cp -ar ../files/hooks/ config/
 
 # KOLEJNE KROKI TWORZENIA SYSTEMU OPERACYJNEGO
 # 1. DODANIE INSTALATORA
