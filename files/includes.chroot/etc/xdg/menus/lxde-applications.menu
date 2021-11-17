@@ -151,6 +151,8 @@
 				<Not><Category>Core</Category></Not>
 				<Not><Category>Settings</Category></Not>
 				<Not><Category>Screensaver</Category></Not>
+				<Not><Category>GIS - Vector</Category></Not>
+				<Not><Category>GIS - Raster</Category></Not>
 			</And>
 		</Include>
 		</Menu> <!-- End Other -->
@@ -175,7 +177,7 @@
 	
 	<Menu>
 		<Name>GIS - Vector</Name>
-		<Directory>xfce-gis-vector.directory</Directory>
+		<Directory>lxde-gis-vector.directory</Directory>
 		<OnlyUnallocated/>
 		<Include>
 			<And>
@@ -184,16 +186,16 @@
 		</Include>
 	</Menu>
     
-    <Menu>
-        <Name>GIS - Raster</Name>
-        <Directory>xfce-gis-raster.directory</Directory>
-        <OnlyUnallocated/>
-        <Include>
+    	<Menu>
+        	<Name>GIS - Raster</Name>
+        	<Directory>lxde-gis-raster.directory</Directory>
+        	<OnlyUnallocated/>
+        	<Include>
 			<And>
 				<Category>GIS - Raster</Category>
 			</And>
-        </Include>
-    </Menu>
+        	</Include>
+    	</Menu>
 
 	<Layout>
 		<Merge type="files"/>
