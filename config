@@ -2,9 +2,9 @@ lb config noauto \
     --architecture amd64 \
 	--binary-images iso \
 	--debian-installer live \
-	--debian-installer-distribution wheezy \
+	--debian-installer-distribution bullseye \
 	--debian-installer-gui false \
-	--distribution wheezy \
+	--distribution bullseye \
 	--memtest none \
 	"${@}"
 
