@@ -1,5 +1,6 @@
-1. Zainstalować w systemie narzędzie live-build:
+1. Zainstalować w systemie narzędzie live-build i squashfs:
 apt install live-build
+apt install squashfs
 
 2. Uruchomić skrypt make_os.sh
 

@@ -1,8 +1,0 @@
-#!/bin/sh
-set -eux
-
-# INSTALACJA NIEZBEDNYCH BIBLIOTEK PYTHONA
-apt install python3-pip
-apt install python3-tk
-apt install gdal-bin
-pip install geopandas

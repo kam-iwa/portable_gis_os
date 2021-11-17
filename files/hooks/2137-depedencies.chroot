@@ -1,0 +1,6 @@
+#!/bin/sh
+set -eux
+
+# INSTALACJA NIEZBEDNYCH BIBLIOTEK PYTHONA
+pip install geopandas
+pip install Pillow
