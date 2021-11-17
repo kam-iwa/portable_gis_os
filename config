@@ -1,11 +1,10 @@
 lb config noauto \
-        --architecture amd64 \
+    --architecture amd64 \
 	--binary-images iso \
 	--debian-installer live \
-	--debian-installer-distribution buster \
-	--debian-installer-gui true \
+	--debian-installer-distribution wheezy \
+	--debian-installer-gui false \
 	--distribution wheezy \
-	--interactive shell \
 	--memtest none \
 	"${@}"
 
