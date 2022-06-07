@@ -25,7 +25,7 @@ if __name__ == "__main__":
     parser.add_argument("-r", "--right", help="(required) right input file path")
     parser.add_argument("-o", "--output", help="(required) output file path")
     parser.add_argument("-t", "--type", help="(required) type of join.\n Allowed: left, right, inner", type=str.lower)
-    parser.add_argument("-r", "--relationship", help="(required) geometric relationship to base spatial join.\n"
+    parser.add_argument("-e", "--relationship", help="(required) geometric relationship to base spatial join.\n"
                                                      "Allowed: intersects, contains, within, touches, crosses, overlaps", type=str.lower)
     args = parser.parse_args()
 
