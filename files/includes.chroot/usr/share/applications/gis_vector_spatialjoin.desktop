@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Spatial join
+Exec=python3 /bin/gis/vector/spatial_join/gui.py
+Terminal=false
+Categories=GIS - Vector;
