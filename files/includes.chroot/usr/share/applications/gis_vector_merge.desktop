@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Merge
+Exec=python3 /bin/gis/vector/merge/gui.py
+Terminal=false
+Categories=GIS - Vector;
