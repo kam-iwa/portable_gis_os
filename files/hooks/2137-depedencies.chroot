@@ -5,3 +5,4 @@ set -eux
 pip install geopandas
 pip install Pillow
 pip install matplotlib
+pip install rtree
