@@ -19,7 +19,7 @@ cp -ar ../files/hooks/2137-depedencies.chroot config/hooks/live
 echo lxde-core >> config/package-lists/gui.list.chroot
 
 # 2. DODANIE POZOSTALYCH PAKIETOW
-echo "zip unzip firefox-esr python3-pip python3-tk python3-gdal gdal-bin" >> config/package-lists/software.list.chroot
+echo "zip unzip firefox-esr python3-pip python3-tk python3-gdal gdal-bin libspatialindex-dev" >> config/package-lists/software.list.chroot
 
 # ZBUDOWANIE PLIKU ISO Z SYSTEMEM OPERACYJNYM
 lb build 2>&1 | tee build.log
