@@ -4,14 +4,5 @@ apt install squashfs
 
 2. Uruchomić skrypt make_os.sh
 
-3. W trakcie działania skryptu pojawi się miejsce do wprowadzania poleceń.
-Należy wpisać następujące polecenia:
-apt install python3-pip
-apt install python3-tk
-apt install python3-gdal
-apt install gdal-bin
-pip install geopandas
-exit
-
-4. Po wykonaniu skryptu, plik live-image-amd64.hybrid.iso z katalogu config
+3. Po wykonaniu skryptu, plik live-image-amd64.hybrid.iso z katalogu
 jest obrazem live stworzonej dystrybucji linuxa :)
