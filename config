@@ -2,9 +2,9 @@ lb config noauto \
     --architecture amd64 \
 	--binary-images iso \
 	--debian-installer live \
-	--debian-installer-distribution bullseye \
+	--debian-installer-distribution bookworm \
 	--debian-installer-gui false \
-	--distribution bullseye \
+	--distribution bookworm \
 	--memtest none \
 	"${@}"
 
