@@ -1,8 +1,0 @@
-1. Zainstalować w systemie narzędzie live-build i squashfs:
-apt install live-build
-apt install squashfs
-
-2. Uruchomić skrypt make_os.sh
-
-3. Po wykonaniu skryptu, plik live-image-amd64.hybrid.iso z katalogu
-jest obrazem live stworzonej dystrybucji linuxa :)
